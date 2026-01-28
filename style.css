@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #F7EFE5;
+  color: #2B1E1A;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+  max-width: 600px;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.text-logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  color: #4B2E2B;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: #4B2E2B;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 15px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.badge {
+  display: inline-block;
+  background: #C6A24A;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.email-box {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.email-box input {
+  padding: 10px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.email-box button {
+  padding: 10px 18px;
+  border: none;
+  background: #4B2E2B;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.email-box button:hover {
+  background: #C6A24A;
+}
+
+#msg {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.socials {
+  margin-top: 25px;
+}
+
+.socials a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #4B2E2B;
+  font-weight: 500;
+}
+
+@media (max-width: 500px) {
+  .email-box {
+    flex-direction: column;
+  }
+
+  .email-box input {
+    width: 100%;
+  }
+}

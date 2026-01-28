@@ -20,5 +20,5 @@ Social media icons are used as placeholders to represent future brand presence, 
 As the official brand logo was not attached, a clean text-based logo treatment was used to maintain brand consistency.
 
 ## 🌐 Live Demo
-(Add live link here after deployment)
+https://pratikshasinha.github.io/chai-culture-coming-soon/
 
